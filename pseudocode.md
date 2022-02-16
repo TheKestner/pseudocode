@@ -19,7 +19,7 @@ User should be able to wash their hands with the choice of either Hot or Cold wa
 
 **INIT:** Create Variables for the Program
 
-*Sink
+* Sink
     * Left Handle for Hot Water
     * Right Handle for Cold Water
 
@@ -27,7 +27,7 @@ User should be able to wash their hands with the choice of either Hot or Cold wa
 
 *Towel
 
-*Users Hands
+* Users Hands
     * Left Hand
     * Right Hand
 
