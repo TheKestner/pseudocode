@@ -18,11 +18,15 @@ User should be able to wash their hands with the choice of either Hot or Cold wa
 **START:** Start Program for Washing Hands
 
 **INIT:** Create Variables for the Program
+
 *Sink
     * Left Handle for Hot Water
     * Right Handle for Cold Water
+
 *Soap
+
 *Towel
+
 *Users Hands
     * Left Hand
     * Right Hand
