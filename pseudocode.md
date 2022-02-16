@@ -23,9 +23,9 @@ User should be able to wash their hands with the choice of either Hot or Cold wa
     * Left Handle for Hot Water
     * Right Handle for Cold Water
 
-*Soap
+* Soap
 
-*Towel
+* Towel
 
 * Users Hands
     * Left Hand
