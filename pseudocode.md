@@ -37,8 +37,9 @@ User should be able to wash their hands with the choice of either Hot or Cold wa
 
 **Function:** Wash hands
 
- If Either Users Hands are Dirty, then Start Washing hands, ELSE Users Hands are Clean.
- 
+ If Either Users Hands are Dirty, then Start Washing hands, 
+  ELSE Users Hands are Clean.
+
 **Function:** Lather Soap 
 
     If Either or Users hands are Dirty, Turn on Sink for Hot or Cold.
