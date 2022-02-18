@@ -35,7 +35,7 @@ User should be able to wash their hands with the choice of either Hot or Cold wa
 
 * Clean
 
-**Function** Turn on Sink
+**Function:** Turn on Sink
 
     If Either or Users hands are Dirty, 
     Add Sink for Hot water or Cold water.
