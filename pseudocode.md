@@ -45,7 +45,7 @@ User should be able to wash their hands with the choice of either Hot or Cold wa
     If Users hands + Soap been 4 seconds
     Soapy = true    
 
-**Function** Rub
+**Function:** Rub
 
     If Soapy Then 
     move Left hand.length + Right hand.length by half
