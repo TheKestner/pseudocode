@@ -20,8 +20,8 @@ User should be able to wash their hands with the choice of either Hot or Cold wa
 **INIT:** Create Variables for the Program
 
 * Sink
-    * Left Handle for Hot Water
-    * Right Handle for Cold Water
+    * Left Handle = Hot Water
+    * Right Handle = Cold Water
 
 * Soap
 
@@ -35,25 +35,40 @@ User should be able to wash their hands with the choice of either Hot or Cold wa
 
 * Clean
 
-**Function:** Wash hands
+**Function** Turn on Sink
+    If Either or Users hands are Dirty, 
+    Add Sink for Hot water or Cold water.
 
- If Either Users Hands are Dirty, then Start Washing hands, 
-  ELSE Users Hands are Clean.
+**Function:** Soapy
 
-**Function:** Lather Soap 
+    If Users hands + Soap been 4 seconds
+    Soapy = true    
 
-    If Either or Users hands are Dirty, Turn on Sink for Hot or Cold.
-     While water is running from sink, Place both Users Hands under Faucet until wet.
-        End While
+**Function** Rub
 
-    If Users Hands are wet, then Add Soap.
+    If Soapy Then 
+    move Left hand.length + Right hand.length by half
+
+**Function:** Washing Hands 
+    
+    Do Turn on Sink
+     while Dirty is True
+
+
+    If Dirty,
+     Add Users Hands + Hot Water or Cold Water
+        
+
+    If Users Hands are Dirty, then Add Soap.
      While Soap is on hands, Rub Users Hands together until Soapy.
         End while
 
-    If Soapy then place and Rub Users Hands under Faucet for > 20 seconds, Rub Until Clean.
+    If Soapy then Rub Users Hands 
+     While Dirty Rub Until > 20 seconds
+        End while
+
+    Clean = Soapy + Rub = True
 
     If Clean is True, Then Rub Hands with Towel.
-
-    If Clean is True, Then Turn Off Sink for Hot or Cold.
 
 **End:** End The Program
