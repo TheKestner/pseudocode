@@ -53,7 +53,7 @@ User should be able to wash their hands with the choice of either Hot or Cold wa
 **Function:** Washing Hands 
     
     Do Turn on Sink
-     while Dirty is True
+     while Dirty is False
 
 
     If Dirty,
